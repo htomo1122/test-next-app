@@ -1,14 +1,13 @@
-import Head from 'next/head'
 import Image from 'next/image'
-import styles from '@/styles/Home.module.css'
+import classes from './Main.module.css'
 import { Links } from '@/components/Links'
 import { Headline } from '@/components/Headline'
 
 export function Main(props) {
   return (
-    <main className={styles.main}>
+    <main className={classes.main}>
       <Image
-        className={styles.logo}
+        className={classes.logo}
         src="/next.svg"
         alt="Next.js logo"
         width={180}
